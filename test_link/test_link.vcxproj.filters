@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\PG\test5\globals.h">
+    <ClInclude Include="globals.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\PG\test5\mylexer.h">
+    <ClInclude Include="mylexer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\PG\test5\myparser.h">
+    <ClInclude Include="myparser.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\PG\test5\mylexer.cpp">
+    <ClCompile Include="mylexer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\PG\test5\myparser.cpp">
+    <ClCompile Include="myparser.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

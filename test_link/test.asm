@@ -8,14 +8,14 @@ option casemap :none
 	typchar db '%c', 0
 	typnum db '%d', 0
 	output dd 0
+	_pi dd 0
+	_nŠÔ dd 0
 	_c dd 0
 	_i dd 0
 	_j dd 0
-	_n dd 0
 	_r dd 0
 	_x dd 0
 	_y dd 0
-	_pi dd 0
 .code
 _start:
 	push 0
@@ -113,9 +113,8 @@ _start:
 	pop _i
 	jmp @0
 @1:
-	invoke crt_scanf, addr typnum, addr _n
 @3:
-	push _n
+	push _nR÷÷
 	push 0
 	pop ecx
 	pop eax
@@ -128,7 +127,7 @@ _start:
 	pop eax
 	cmp eax, 0
 	je @4
-	push _n
+	push _nR÷÷
 	push 10
 	pop ecx
 	pop eax
@@ -430,7 +429,6 @@ _start:
 	invoke crt_printf, addr typnum, output
 @32:
 @29:
-	invoke crt_scanf, addr typnum, addr _n
 	jmp @3
 @4:
 	invoke crt__exit, 0

@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\PG\test5\globals.h" />
-    <ClInclude Include="..\..\..\..\PG\test5\mylexer.h" />
-    <ClInclude Include="..\..\..\..\PG\test5\myparser.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="mylexer.h" />
+    <ClInclude Include="myparser.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\PG\test5\mylexer.cpp" />
-    <ClCompile Include="..\..\..\..\PG\test5\myparser.cpp" />
+    <ClCompile Include="mylexer.cpp" />
+    <ClCompile Include="myparser.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2B6A2D0D-4719-48B6-87B9-ED8928E45F8C}</ProjectGuid>
